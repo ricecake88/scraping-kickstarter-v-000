@@ -7,3 +7,5 @@ def create_project_hash
   kickstarter = Nokogirl::HTML(html)
   binding.pry
 end
+
+creating_project_hash
