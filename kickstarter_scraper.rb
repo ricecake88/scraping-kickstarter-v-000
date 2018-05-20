@@ -11,7 +11,7 @@ def create_project_hash
   #img project.css("div.project-thumbnail a img").attribute("src").value
   #description: project.css("p.bbcard_blurb").text
   #location name: project.css("location-name").text
-  #
+  #percent-funded: project.css("ul.project-stats li.first.funded strong").text
 end
 
 create_project_hash
